@@ -16,7 +16,7 @@
 | 🟦 heap              | 🟩 for                | 🟩 lambda             | 🟩 stack            | 🟩 complexity        |
 | 🟩 type              | 🟩 for..in            | 🟩 side effects       | 🟩 deque            | 🟩 decomposition     |
 | 🟩 primitive types   | 🟩 for..of            | 🟩 closure            | 🟦 serialization    | 🟩 spaghetti         |
-| 🟦 reference         | 🟨 for await          | 🟩 partial            | 🟦 mixin, extend    | 🟩 silver bullet     |
+| 🟩 reference         | 🟨 for await          | 🟩 partial            | 🟦 mixin, extend    | 🟩 silver bullet     |
 | 🟩 flag              | 🟦 throw              | 🟩 curry              | 🟩 iterator         | ⬜️ not invented here |
 | 🟩 lexical scope     | 🟩 try..catch         | 🟩 chaining           | 🟩 typed arrays     | 🟩 dead code         |
 | 🟩 code block        | 🟩 equality operators | 🟦 higher order       | 🟩 Map              | 🟦 unreachable code  |
@@ -25,8 +25,8 @@
 | 🟩 arrow function    | 🟩 break, continue    | ⬜️ pipe               | ⬜️ Proxy            | 🟦 return early      |
 | 🟨 generator         | 🟩 switch             | ⬜ compose            | ⬜️ Symbol           | 🟩 linter            |
 | 🟩 async function    | 🟨 new Error          | ⬜️ memoize            | 🟩 string parsing   | 🟩 prettier          |
-| 🟨 call, bind, apply |                       | 🟦 factory            | 🟨 timers           | 🟩 unittest          |
-| 🟩 Array             |                       | 🟦 pool               | 🟨 EventEmitter     | 🟩 git               |
+| 🟨 call, bind, apply |                       | 🟦 factory            | 🟩 timers           | 🟩 unittest          |
+| 🟩 Array             |                       | 🟦 pool               | 🟩 EventEmitter     | 🟩 git               |
 | 🟨 instanceof        |                       | 🟦 wrapper            | 🟨 RegExp           | 🟩 github            |
 | 🟨 ...spread         |                       | 🟨 default parameters | 🟨 global           | 🟩 node.js           |
 | 🟨 ...rest           |                       |                       | 🟨 undefined        | 🟩 npm               |
@@ -66,7 +66,7 @@
 | 🟩 Promise             | 🟦 nextTick                    | 🟦 try..catch       | ⬜ Rx.js                 |
 | 🟩 Async function      | ⬜ AbortController             | 🟦 Non-blocking     | 🟦 Sequential async      |
 | 🟩 await               | 🟦 Promise unhandled rejection | 🟦 Async I/O        | 🟦 Parallel async        |
-| 🟦 Generator           | 🟦 Promise double resolve      | 🟦 Pattern Reactor  | 🟦 Promise.all           |
+| 🟩 Generator           | 🟦 Promise double resolve      | 🟦 Pattern Reactor  | 🟦 Promise.all           |
 | 🟦 Async Generator     | 🟦 child_process               | ⬜ CAS operations   | 🟦 Promise.allSettled    |
 | 🟦 Async Iterator      | 🟦 worker_threads              | ⬜ epoll            | 🟦 Promise.race          |
 | 🟦 Thenable            | 🟦 Atomics                     | ⬜ kqueue           | 🟦 Promise.any           |
@@ -85,7 +85,7 @@
 
 | Internals            | Theory                       | Network           | Technique        | Problems             |
 |----------------------|------------------------------|-------------------|------------------|----------------------|
-| 🟦 Nonblocking I/O   | 🟦 I/O bound tasks           | 🟩 HTTP(S)        | 🟦 Logging       | 🟦 Memory leaks      |
+| 🟦 Nonblocking I/O   | 🟦 I/O bound tasks           | 🟦 HTTP(S)        | 🟦 Logging       | 🟦 Memory leaks      |
 | 🟦 Event Loop        | 🟦 CPU bound tasks           | 🟦 TCP/SSL        | 🟩 Testing       | 🟦 Resource leaks    |
 | 🟦 commonjs          | 🟦 Memory bound tasks        | 🟦 UDP            | ⬜ CI/CD         | 🟦 Blocking code     |
 | 🟦 ECMA modules      | 🟦 Multilayer approach       | 🟦 TLS            | 🟦 Readable      | 🟦 Data race         |
